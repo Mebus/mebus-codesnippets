@@ -16,4 +16,4 @@ Disk
 KDE
 ----------
 
-Refresh KDE Desktop Icons: <F5>
+Refresh KDE Desktop Icons: F5
