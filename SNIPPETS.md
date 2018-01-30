@@ -12,3 +12,8 @@ Disk
 ----------
 
 <code>du -sh --apparent-size .</code>
+
+KDE
+----------
+
+Refresh KDE Desktop Icons: <F5>
