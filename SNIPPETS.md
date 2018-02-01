@@ -17,3 +17,10 @@ KDE
 ----------
 
 Refresh KDE Desktop Icons: F5
+
+TeXstudio
+----------
+
+Jump to next placeholder: Ctrl + RightArrow
+
+Insert equation: Ctrl + Shift + N
