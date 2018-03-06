@@ -24,3 +24,11 @@ TeXstudio
 Jump to next placeholder: Ctrl + RightArrow
 
 Insert equation: Ctrl + Shift + N
+
+Icinga
+----------
+
+```
+icinga2 feature enable debuglog
+icinga2 feature disable debuglog
+```
