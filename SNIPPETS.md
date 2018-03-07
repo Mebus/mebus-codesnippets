@@ -32,3 +32,12 @@ Icinga
 icinga2 feature enable debuglog
 icinga2 feature disable debuglog
 ```
+
+Windows
+----------
+
+Pfade für Laufwerksbuchstaben anzeigen:
+
+```
+net use
+```
