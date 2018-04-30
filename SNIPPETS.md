@@ -1,6 +1,15 @@
 Mebus' Code Snippets
 =====================
 
+Bash
+----------
+
+Execute a command for every line in a file:
+
+<code>
+while read in; do file "Camera/$in"; done < filtered.txt
+</code>
+
 SSH
 ----------
 
