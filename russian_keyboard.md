@@ -1,5 +1,7 @@
 # Setting different keyboard layouts for different keyboards
 
+## Example found on the internet:
+
 Use xinput to find your keyboards:
 
 ```
@@ -31,3 +33,11 @@ $ setxkbmap -device 17 ru
 ```
 
 Done!
+
+## Do it automatically
+
+```
+setxkbmap -device `xinput | grep "Bluetooth_Keyboard  Keyboard"  | sed -r 's/([^0-9]*([0-9]*)){1}.*/\2/'` ru
+```
+
+
