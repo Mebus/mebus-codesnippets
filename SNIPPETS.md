@@ -42,6 +42,13 @@ icinga2 feature enable debuglog
 icinga2 feature disable debuglog
 ```
 
+Jekyll
+----------
+
+```
+echo 256 > /proc/sys/fs/inotify/max_user_instances
+```
+
 Windows
 ----------
 
