@@ -27,6 +27,13 @@ KDE
 
 Refresh KDE Desktop Icons: F5
 
+Termux
+-------
+
+```
+cd $PREFIX
+```
+
 TeXstudio
 ----------
 
