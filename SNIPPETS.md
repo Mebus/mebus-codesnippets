@@ -22,6 +22,13 @@ Disk
 
 <code>du -sh --apparent-size .</code>
 
+Git
+----------
+
+<code>
+  git add ':(exclude)*.pdf'
+</code>
+
 KDE
 ----------
 
