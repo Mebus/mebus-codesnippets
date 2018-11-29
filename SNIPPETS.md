@@ -71,3 +71,12 @@ Pfade für Laufwerksbuchstaben anzeigen:
 ```
 net use
 ```
+
+Visual Studio Code
+-------------------
+
+Settings:
+
+```
+"workbench.editor.enablePreview": false,
+```
