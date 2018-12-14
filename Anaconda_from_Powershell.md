@@ -1,3 +1,5 @@
+# Activate an Anaconda environment inside the Microsoft Windows Powershell
+
 To correctly work with Anaconda on Powershell :
 
 * Run the anaconda command : 
