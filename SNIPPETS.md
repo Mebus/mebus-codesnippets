@@ -63,6 +63,13 @@ Jekyll
 echo 256 > /proc/sys/fs/inotify/max_user_instances
 ```
 
+Rsync
+----------
+
+```
+rsync -chavP -zz -e "ssh -p 8022" mebus@192.168.42.42:/storage/giantdisk/ targetdir/
+```
+
 Windows
 ----------
 
