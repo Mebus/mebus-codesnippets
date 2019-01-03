@@ -63,6 +63,13 @@ Jekyll
 echo 256 > /proc/sys/fs/inotify/max_user_instances
 ```
 
+LaTeX
+----------
+
+```
+aspell --lang=en --mode=tex check file.tex
+```
+
 Rsync
 ----------
 
