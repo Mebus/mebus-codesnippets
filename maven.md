@@ -1,5 +1,17 @@
 # Maven
 
+## Build a jar package
+
+```
+mvn package
+```
+
+## Execute
+
+```
+mvn exec:java
+```
+
 ## Get sources and Javadocs
 
 When you're using Maven in an IDE you often find the need for your IDE to resolve source code and Javadocs for your library dependencies. There's an easy way to accomplish that goal.
