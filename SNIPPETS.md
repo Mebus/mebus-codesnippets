@@ -77,6 +77,12 @@ Rsync
 rsync -chavP -zz -e "ssh -p 8022" mebus@192.168.42.42:/storage/giantdisk/ targetdir/
 ```
 
+Faster variant without checksum calculation and compression:
+
+```
+rsync -havP -e "ssh -p 8022" mebus@192.168.42.42:/storage/giantdisk/ targetdir/
+```
+
 Windows
 ----------
 
