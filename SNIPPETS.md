@@ -66,9 +66,15 @@ echo 256 > /proc/sys/fs/inotify/max_user_instances
 LaTeX
 ----------
 
+### Spellcheck
+
 ```
 aspell --lang=en --mode=tex check file.tex
 ```
+
+### Tools
+
+ * https://mathpix.com/ - Take a screenshot of math and paste the LaTeX into your editor, all with a single keyboard shortcut.
 
 Rsync
 ----------
