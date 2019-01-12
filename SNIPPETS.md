@@ -41,13 +41,6 @@ Termux
 cd $PREFIX
 ```
 
-TeXstudio
-----------
-
-Jump to next placeholder: Ctrl + RightArrow
-
-Insert equation: Ctrl + Shift + N
-
 Icinga
 ----------
 
@@ -71,6 +64,12 @@ LaTeX
 ```
 aspell --lang=en --mode=tex check file.tex
 ```
+
+### TeXstudio
+
+Jump to next placeholder: Ctrl + RightArrow
+
+Insert equation: Ctrl + Shift + N
 
 ### Tools
 
