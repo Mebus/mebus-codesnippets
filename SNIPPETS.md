@@ -75,6 +75,15 @@ Insert equation: Ctrl + Shift + N
 
  * https://mathpix.com/ - Take a screenshot of math and paste the LaTeX into your editor, all with a single keyboard shortcut.
 
+Python
+----------
+
+Remove all *.pyc files:
+
+``` 
+find . -name '*.pyc' -delete
+```
+
 Rsync
 ----------
 
