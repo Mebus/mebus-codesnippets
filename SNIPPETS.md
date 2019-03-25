@@ -106,6 +106,13 @@ Pfade für Laufwerksbuchstaben anzeigen:
 net use
 ```
 
+VirtualBox
+-----------
+
+```
+sudo rcvboxdrv setup
+``` 
+
 Visual Studio Code
 -------------------
 
