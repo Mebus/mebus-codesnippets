@@ -41,13 +41,6 @@ Termux
 cd $PREFIX
 ```
 
-TeXstudio
-----------
-
-Jump to next placeholder: Ctrl + RightArrow
-
-Insert equation: Ctrl + Shift + N
-
 Icinga
 ----------
 
@@ -66,8 +59,29 @@ echo 256 > /proc/sys/fs/inotify/max_user_instances
 LaTeX
 ----------
 
+### Spellcheck
+
 ```
 aspell --lang=en --mode=tex check file.tex
+```
+
+### TeXstudio
+
+Jump to next placeholder: Ctrl + RightArrow
+
+Insert equation: Ctrl + Shift + N
+
+### Tools
+
+ * https://mathpix.com/ - Take a screenshot of math and paste the LaTeX into your editor, all with a single keyboard shortcut.
+
+Python
+----------
+
+Remove all *.pyc files:
+
+``` 
+find . -name '*.pyc' -delete
 ```
 
 Rsync
@@ -91,6 +105,13 @@ Pfade für Laufwerksbuchstaben anzeigen:
 ```
 net use
 ```
+
+VirtualBox
+-----------
+
+```
+sudo rcvboxdrv setup
+``` 
 
 Visual Studio Code
 -------------------
