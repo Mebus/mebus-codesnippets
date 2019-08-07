@@ -27,6 +27,8 @@ Git
 
 <code>
   git add ':(exclude)*.pdf'
+ 
+  git merge --allow-unrelated-histories project-a/master
 </code>
 
 KDE
