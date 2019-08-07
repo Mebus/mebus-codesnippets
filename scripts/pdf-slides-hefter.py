@@ -31,3 +31,4 @@ cmd = "pdfjam --nup 2x1 output/joined2.pdf --landscape --a4paper --outfile outpu
 runcmd(cmd)
 
 cmd = "pdfjam --twoside --landscape --offset '1.4cm 0cm' --scale 0.9 output/joined3.pdf --outfile output/joined4.pdf"
+runcmd(cmd)
