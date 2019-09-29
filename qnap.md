@@ -23,3 +23,7 @@ opt/Entware-ng.sh  start
 ```
 export PATH=/opt/bin:/opt/sbin:$PATH
 ```
+
+## References 
+
+* https://wiki.qnap.com/wiki/Replace_ssh_with_Qnapware_OpenSSH
