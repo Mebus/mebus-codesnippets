@@ -102,11 +102,7 @@ rsync -havP -e "ssh -p 8022" mebus@192.168.42.42:/storage/giantdisk/ targetdir/
 Windows
 ----------
 
-Pfade für Laufwerksbuchstaben anzeigen:
-
-```
-net use
-```
+See `windows.md`
 
 VirtualBox
 -----------
