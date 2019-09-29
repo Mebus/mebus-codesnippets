@@ -9,6 +9,12 @@ netsh advfirewall firewall add rule name="ICMP Allow incoming V4 echo request" p
 netsh advfirewall firewall add rule name="ICMP Allow incoming V6 echo request" protocol="icmpv6:8,any" dir=in action=allow
 ```
 
+### Allow Remote Desktop Connections
+
+```
+netsh firewall set service type = remotedesktop mode = enable
+```
+
 ## Network shares
 
 Pfade für Laufwerksbuchstaben anzeigen:
