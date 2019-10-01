@@ -119,3 +119,12 @@ Settings:
 ```
 "workbench.editor.enablePreview": false,
 ```
+
+Samba / CIFS
+-------------
+
+Unmount stuck cifs mount:
+
+```
+sudo umount -a -t cifs -l
+``` 
