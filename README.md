@@ -86,6 +86,11 @@ Remove all *.pyc files:
 find . -name '*.pyc' -delete
 ```
 
+Ripgrep
+----------
+
+Search for pattern including all .gitignored and hidden files: `rg -uu pattern`
+
 Rsync
 ----------
 
