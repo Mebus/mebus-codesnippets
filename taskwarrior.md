@@ -3,5 +3,5 @@
 ## How to end a recurring task?
 
  * `task recurring`
- * Pick an <id>.
+ * Pick an `<id>`.
  * `task <id> modify until:now`
