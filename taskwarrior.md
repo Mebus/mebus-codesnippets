@@ -11,3 +11,7 @@
 ```
 task add "Staubsaugen" project:wohnen  recur:biweekly due:eow until:2030-01-01
 ```
+
+## Weblinks
+
+ * https://taskwarrior.org/docs/
