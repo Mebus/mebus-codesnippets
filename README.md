@@ -77,6 +77,15 @@ Insert equation: Ctrl + Shift + N
 
  * https://mathpix.com/ - Take a screenshot of math and paste the LaTeX into your editor, all with a single keyboard shortcut.
 
+mencoder
+------------
+
+Create movie from pictures:
+
+```
+mencoder "mf://*.jpg" -mf fps=10 -o fastoutput.avi -ovc copy
+```
+
 Python
 ----------
 
