@@ -150,3 +150,10 @@ sudo umount -a -t cifs -l
 7z a -p -m0=lzma2 -mx=9 -mhe=on -ms=on -t7z something.7z something/
 ```
 
+Rust
+------
+
+```
+source $HOME/.cargo/env
+```
+
