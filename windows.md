@@ -22,3 +22,9 @@ Pfade für Laufwerksbuchstaben anzeigen:
 ```
 net use
 ```
+
+## Disable automatic updates in Windows 10
+
+```
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -Name NoAutoUpdate -Value 1
+```
