@@ -6,35 +6,49 @@ Bash
 
 Execute a command for every line in a file:
 
-<code>
+```
 while read in; do file "Camera/$in"; done < filtered.txt
-</code>
+```
 
 SSH
 ----------
 
 **Socks-Proxy:**
 
-<code>ssh -N -D7070 mebus@somehost.com</code>
+```
+ssh -N -D7070 mebus@somehost.com
+```
 
 Disk
 ----------
 
-<code>du -sh --apparent-size .</code>
+```
+du -sh --apparent-size .
+```
 
 Git
 ----------
 
-<code>
+```
   git add ':(exclude)*.pdf'
  
   git merge --allow-unrelated-histories project-a/master
-</code>
+```
 
 KDE
 ----------
 
 Refresh KDE Desktop Icons: F5
+
+
+Libre Office
+------------
+
+Fix scaling issues:
+
+```
+QT_QPA_PLATFORM=xcb QT_SCALE_FACTOR=1 libreoffice 
+```
 
 Termux
 -------
