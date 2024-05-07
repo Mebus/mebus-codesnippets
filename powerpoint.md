@@ -2,6 +2,9 @@
 
 ## Change the spell check language for all slides
 
+- Press Alt + F11.
+- Create a new macro with this code:
+
 ```
 Option Explicit
 Public Sub ChangeSpellCheckingLanguage()
@@ -18,5 +21,7 @@ Public Sub ChangeSpellCheckingLanguage()
     Next j
 End Sub
 ```
+
+- Run it.
 
 See: https://www.youtube.com/watch?v=ME1EPXFe_fc
