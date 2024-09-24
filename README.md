@@ -131,6 +131,13 @@ Create movie from pictures:
 mencoder "mf://*.jpg" -mf fps=10 -o fastoutput.avi -ovc copy
 ```
 
+Neovide
+----------
+
+Execute:
+
+let g:neovide_scale_factor = 0.9
+
 Python
 ----------
 
