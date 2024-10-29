@@ -209,3 +209,12 @@ Rust
 source $HOME/.cargo/env
 ```
 
+ZFS
+-----
+
+```
+zpool import -R /a zroot -f
+```
+
+
+
