@@ -147,6 +147,12 @@ Remove all *.pyc files:
 find . -name '*.pyc' -delete
 ```
 
+If pip is missing in a virtual environment, i.e. after a Debian upgrade, activate the venv and run:
+
+```
+python -m ensurepip --default-pip
+```
+
 Ripgrep
 ----------
 
